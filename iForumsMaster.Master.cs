@@ -37,6 +37,7 @@ namespace iFourms
 
         protected void iforumlogin_Click(object sender, EventArgs e)
         {
+			//登出
             if (HttpContext.Current.User.Identity.IsAuthenticated)
             {
                 FormsAuthentication.SignOut();
