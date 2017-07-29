@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="iForumsMaster.master.cs" Inherits="iFourms.iForumsMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Master.css" rel="stylesheet" type="text/css" />
+
+ 
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header">
+    
+    <div id="logo"><span class="logo1"><a href="../Forum/index.aspx">iForum</a></span>.com</div>
+    <div id="login">
+        <table class="iforumlogintb">
+            <tr>
+                <td class="title">
+                    <asp:Label ID="welcome" runat="server" CssClass="welcome" ForeColor="White"></asp:Label>
+                </td>
+                <td class="register">
+                    <asp:LinkButton ID="iforumregister" runat="server" CssClass="iforumregister"></asp:LinkButton>
+                </td>
+                <td class="login">
+                    <asp:LinkButton ID="iforumlogin" runat="server" CssClass="iforumlogin" 
+                        onclick="iforumlogin_Click"></asp:LinkButton>
+                </td>
+            </tr>
+        </table>
+    </div>
+  
+    </div>
+    <div id="nav"></div>
+    <div id="content">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div id="footer">
+    Copyright © 2015-<asp:Label ID="Label1" runat="server"></asp:Label>
+&nbsp;saii2003@hotmail.com All rights reserved. 
+        <br />
+        iForum.com</div>
+    </form>
+</body>
+</html>
