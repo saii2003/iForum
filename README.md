@@ -2,9 +2,7 @@
 
 ![index text](https://saii2003.github.io/Introduction/intro_forum/image/1.jpg)
 
-<pre><code>使用技術及系統</code></pre>
-- 網路空間：somee.com
-- 系統：Windows 2012 IIS8
+<pre><code><h3>使用技術</h3></code></pre>
 - 後端技術：ASP.NET C#
 - 前端技術：HTML、CSS、jQuery
 - 資料庫：MSSQL 2008
