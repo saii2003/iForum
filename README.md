@@ -1,5 +1,5 @@
 # iForum目錄檔案說明
-App_Code
+<pre><code>App_Code</code></pre>
 
 - DBbase.cs :資料庫連線基本設定
 - ForumBL.ce :論壇頁面的商業邏輯
