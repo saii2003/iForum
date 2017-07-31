@@ -2,6 +2,14 @@
 
 ![index text](https://saii2003.github.io/Introduction/intro_forum/image/1.jpg)
 
+<pre><code>使用技術及系統</code></pre>
+- 網路空間：somee.com
+- 系統：Windows 2012 IIS8
+- 後端技術：ASP.NET C#
+- 前端技術：HTML、CSS、jQuery
+- 資料庫：MSSQL 2008
+- 架構：Web Form
+
 <pre><code>### App_Code</code></pre>
 - DBbase.cs ：資料庫連線基本設定
 - ForumBL.ce ：論壇頁面的商業邏輯
