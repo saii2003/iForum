@@ -1,0 +1,143 @@
+﻿body 
+{
+
+    margin:0px;
+    padding:0px;
+    background-color:#F0F0F0;
+}
+
+#header
+{
+    
+    height: 100px;
+    width:1100px;
+    height:80px;
+    background:#F1F1F1;
+    margin: 0px auto;
+    
+    
+    
+}
+#logo
+{
+    font-family: "Gill Sans Ultra Bold";
+    font-size: 45px;
+    width: 210px;
+    height: 55px;
+    color:#90C140;
+    float:left;
+    margin:30px 0px 0px 0px;
+
+
+}
+#login
+{
+    color:White;
+    font-family:Times New Roman;
+    padding:5px 5px 5px 5px;
+    background:#545453;
+
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    float:left;
+    margin:0px 0px 0px 600px;
+    box-shadow: 2px 2px #90C140;
+    height: 26px;
+    
+    
+}
+#login .title
+{
+    padding:0px 8px 0px 8px;
+}
+#login .register,#login .login
+{
+    font-family: 新細明體;
+    text-align:center;
+    padding:3px 8px 3px 8px;
+    color:White;
+    text-decoration: none;
+    border-left: 1px solid white;
+}
+#login .welcome
+{
+    color:White;
+}
+#login .iforumregister,#login .iforumlogin
+{
+    color:White;
+    text-decoration:none;
+}
+.logo1 a
+{
+    color: #545453;
+    text-decoration:none;
+}
+
+#nav
+{
+
+   margin:0px auto;
+    height:10px;
+ 
+   border:solid 1px #90C140;
+    background-color:#90C140;
+    box-shadow:0px 2px 2px #D2D2D2;
+    
+}
+#content
+{
+    margin: 0px auto 10px auto;
+    width:1100px;
+    border:solid 1px #DFDFDF;
+    background-color:White;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    box-shadow:0px 2px 2px #D2D2D2;
+
+}
+#content .left 
+{
+    margin:30px auto 0px auto;
+    width:820px;
+    background-color:#90C140;
+
+}
+#content .left .title
+{
+    text-align:center;
+    width:100px;
+    padding:8px 0px;
+}
+#content .left .profile,#content .left .change_pw,#content .left .icon,#content .left .articles
+{
+    text-decoration:none;
+    color:White;
+}
+#content .right
+{
+    margin:0px auto 80px auto;
+    width:818px;
+    border:1px solid #90C140;
+    border-bottom-right-radius:1 0px;
+    border-bottom-left-radius:10px;
+
+
+
+
+}
+#footer
+{
+    margin:0px auto;
+    height:50px;
+    font-family:@新細明體;
+    color:#333333;
+    font-size:16px;
+    text-align: center; 
+    padding:20px; 
+    clear:both; 
+
+}
+
+
+

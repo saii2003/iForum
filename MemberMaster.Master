@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MemberMaster.master.cs" Inherits="iFourms.MemberMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/MemberMaster.css" rel="stylesheet" type="text/css" />
+    </head>
+<body>
+     <form id="form1" runat="server">
+    <div id="header">
+    
+    <div id="logo"><span class="logo1"><a href="../Forum/index.aspx">iForum</a></span>.com</div>
+    <div id="login">
+        <table class="iforumlogintb">
+            <tr>
+                <td class="title">
+                    <asp:Label ID="welcome" runat="server" CssClass="welcome" ForeColor="White"></asp:Label>
+                </td>
+                <td class="register">
+                    <asp:LinkButton ID="iforumregister" runat="server" CssClass="iforumregister"></asp:LinkButton>
+                </td>
+                <td class="login">
+                    <asp:LinkButton ID="iforumlogin" runat="server" CssClass="iforumlogin" 
+                        onclick="iforumlogin_Click"></asp:LinkButton>
+                </td>
+            </tr>
+        </table>
+    </div>
+  
+    </div>
+    <div id="nav"></div>
+    <div id="content">
+    <div class="left">
+    
+   
+        <table class="m_mastertb">
+            <tr>
+                <td class="title">
+                    <asp:HyperLink ID="profile" runat="server" CssClass="profile" 
+                        NavigateUrl="~/Member/profile.aspx">個人資訊</asp:HyperLink>
+                </td>
+                <td class="title">
+                    <asp:HyperLink ID="change_pw" runat="server" CssClass="change_pw" 
+                        NavigateUrl="~/Member/changepw.aspx">變更密碼</asp:HyperLink>
+                </td>
+                <td class="title">
+                    <asp:HyperLink ID="icon" runat="server" CssClass="icon" 
+                        NavigateUrl="~/Member/updateicon.aspx">個人圖示</asp:HyperLink>
+                </td>
+                <td class="title">
+                    <asp:HyperLink ID="articles" runat="server" CssClass="articles"
+                        NavigateUrl="~/Member/iAarticle.aspx">個人發文</asp:HyperLink>
+                </td>
+                <td class="title">
+                    &nbsp;</td>
+            </tr>
+        </table>
+    
+   
+    </div>
+        <div class="right">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div id="footer">
+    Copyright © 2015 saii2003@hotmail.com All rights reserved. 
+        <br />
+        iForum © 2015
+    </div>
+    </form>
+</body>
+</html>

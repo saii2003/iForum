@@ -1,0 +1,498 @@
+﻿/*============================= 註冊  ============================= */
+#registermem
+{
+    position:relative;
+    margin:0px auto;
+    width:640px;
+    color:#666666;
+}
+#registermem .registertb
+{
+    margin:20px;
+    width:600px
+}
+#registermem .header
+{
+    font-size: 22px;
+    font-family:微軟正黑體;
+    font-weight: 600;
+    padding:10px 0px 5px 5px;
+    border-bottom:double 3px #333333;
+    color:#8BB24B;
+}
+#registermem .title
+{
+    font-family:@新細明體;
+    text-align:right;
+    padding:12px 10px 12px 0px;
+    width:170px;
+}
+#registermem .username,#registermem .password,#registermem .repassword,#registermem .nickname,#registermem .email,#registermem .birthday1
+{
+    border:solid 1px #999999;
+    border-radius:2px;
+    height:22px;
+    color:#999999;
+    
+}
+
+#registermem #drop
+{
+    width:80px;
+    position:absolute;
+    top:308px;
+    left:273px;
+}
+#registermem .year
+{
+    border:solid 1px white;
+    border-radius:2px;
+    height:24px;
+    color:#666666;
+} 
+#registermem .footer
+{
+    padding:10px;
+    text-align:center;
+}
+#registermem .registerbutton,#registermem .registercancel
+{
+    margin:5px;
+    font-family: 新細明體;
+    color:White;
+    border: 1px solid #999999;
+    width: 80px;
+    height: 30px;
+    border-radius:3px;
+    background-color:#8BB24B;
+}
+#registermem .checkusername
+{
+    margin:5px;
+    font-family: 新細明體;
+    color:White;
+    border: 1px solid #999999;
+    width: 120px;
+    height: 30px;
+    border-radius:3px;
+    background-color:#8BB24B;
+}
+/*============================= 忘記密碼 ============================= */
+#forget
+{
+    margin:0px auto;
+    width:640px;
+    color:#666666;
+}
+#forget .forgettb
+{
+    margin:20px;
+    width:600px
+}
+#forget .header
+{
+    font-size: 22px;
+    font-family:微軟正黑體;
+    font-weight: 600;
+    padding:10px 0px 5px 5px;
+    border-bottom:double 3px #333333;
+    color:#8BB24B;
+}
+#forget .explain
+{
+    padding:5px 0px 5px 5px;
+    background-color:#FF9966;
+    border-radius:2px;
+    color:White;
+}
+#forget .title
+{
+    text-align:right;
+    padding:12px 10px 12px 0px;
+    width:170px;
+}
+#forget .username,#forget .email
+{
+    border:solid 1px #999999;
+    border-radius:2px;
+    width:250px;
+    height:22px;
+    
+}
+#forget .footer
+{
+    padding:10px;
+    text-align:center;
+}
+#forget .forgetbutton,#forget .forgetcancel
+{
+    margin:5px;
+    font-family: 新細明體;
+    color:White;
+    border: 1px solid #999999;
+    width: 80px;
+    height: 30px;
+    border-radius:3px;
+    background-color:#8BB24B;
+}
+/*============================= 新密碼設定 ============================= */
+#new_pw
+{
+    margin:0px auto;
+    width:660px;
+    color:#666666;
+}
+#new_pw .new_pwtb
+{
+    margin:20px;
+    width:620px
+}
+#new_pw .header
+{
+    font-size: 22px;
+    font-family:微軟正黑體;
+    font-weight: 600;
+    padding:10px 0px 5px 5px;
+    border-bottom:double 3px #333333;
+    color:#8BB24B;
+}
+
+#new_pw .title
+{
+    text-align:right;
+    padding:12px 10px 12px 0px;
+    width:180px;
+}
+#new_pw .password,#new_pw .repassword
+{
+    border:solid 1px #999999;
+    border-radius:2px;
+    width:250px;
+    height:22px;
+    
+}
+#new_pw .footer
+{
+    padding:10px;
+    text-align:center;
+}
+#new_pw .new_pwbutton,#new_pw .new_pwcancel
+{
+    margin:5px;
+    font-family: 新細明體;
+    color:White;
+    border: 1px solid #999999;
+    width: 80px;
+    height: 30px;
+    border-radius:3px;
+    background-color:#8BB24B;
+}
+/*============================= 登入  ============================= */
+#memlogin
+{
+    margin:0px auto;
+    width:660px;
+    color:#666666;
+}
+#memlogin .memlogintb
+{
+    margin:20px;
+    width:620px
+}
+#memlogin .header
+{
+    font-size: 22px;
+    font-family:微軟正黑體;
+    font-weight: 600;
+    padding:10px 0px 5px 5px;
+    border-bottom:double 3px #333333;
+    color:#8BB24B;
+}
+
+#memlogin .title
+{
+    text-align:right;
+    width:180px;
+    padding:10px 10px 10px 0px;
+}
+#memlogin .check,#memlogin .forgetpw
+{
+    text-align:center;
+}
+#memlogin .setnew_pw,#memlogin .updatevalid
+{
+    color:#8BB24B;
+    text-decoration:none;
+    
+}
+#memlogin .username,#memlogin .password
+{
+    border:solid 1px #999999;
+    border-radius:2px;
+    width:250px;
+    height:22px;
+    
+}
+#memlogin .code
+{
+    border:solid 1px #999999;
+    border-radius:2px;
+    width:80px;
+    height:22px;
+    
+}
+#memlogin .codeimage
+{
+    border:solid 1px #8BB24B;
+    border-radius:3px;
+}
+#memlogin .footer
+{
+    padding:10px;
+    text-align:center;
+}
+#memlogin .loginbutton,#memlogin .logincancel
+{
+    margin:5px;
+    font-family: 新細明體;
+    color:White;
+    border: 1px solid #999999;
+    width: 80px;
+    height: 30px;
+    border-radius:3px;
+    background-color:#8BB24B;
+}
+/*============================= 上傳個人圖示  ============================= */
+#updateicon
+{
+    margin:0px auto;
+    width:660px;
+    color:#666666;
+}
+#updateicon .updateicontb
+{
+    margin:20px;
+    width:620px
+}
+#updateicon .header
+{
+    font-size: 22px;
+    font-family:微軟正黑體;
+    font-weight: 600;
+    padding:10px 0px 5px 5px;
+    border-bottom:double 3px #333333;
+    color:#8BB24B;
+}
+#updateicon .explain
+{
+    font-family:微軟正黑體;
+    padding:5px 0px 5px 5px;
+    background-color:#FF9966;
+    border-radius:2px;
+    color:White;
+}
+
+#updateicon .fileupdate
+{
+ 
+    border-radius:2px;
+    width:300px;
+    height:25px;
+    
+}
+#updateicon .tupdate
+{
+    padding:15px 0px;
+}
+#updateicon  .tfooter
+{
+    padding:10px;
+    text-align:center;
+}
+#updateicon  .button
+{
+    margin:5px;
+    font-family: 新細明體;
+    color:White;
+    border: 1px solid #999999;
+    width: 80px;
+    height: 30px;
+    border-radius:3px;
+    background-color:#8BB24B;
+}
+/*============================= 個人資料 ============================= */
+#medit
+{
+    margin:0px auto;
+    width:660px;
+    color:#666666;
+}
+#medit .medittb
+{
+    margin:20px;
+    width:620px
+}
+#medit .header
+{
+    font-size: 22px;
+    font-family:微軟正黑體;
+    font-weight: 600;
+    padding:10px 0px 5px 5px;
+    border-bottom:double 3px #333333;
+    color:#8BB24B;
+}
+
+#medit .title
+{
+    width:180px;
+    text-align:right;
+    padding:8px 10px 8px 0px;
+    }
+#medit .meditemail
+{
+    border:solid 1px #999999;
+    border-radius:2px;
+    width:250px;
+    height:22px;
+    
+}
+#medit .meditnickname
+{
+    border:solid 1px #999999;
+    border-radius:2px;
+    width:100px;
+    height:22px;
+    
+}
+#medit .footer
+{
+    padding:10px;
+    text-align:center;
+}
+#medit .meditbutton
+{
+    margin:5px;
+    font-family: 新細明體;
+    color:White;
+    border: 1px solid #999999;
+    width: 80px;
+    height: 30px;
+    border-radius:3px;
+    background-color:#8BB24B;
+}
+/*============================= 變更密碼 ============================= */
+#changepw
+{
+    margin:0px auto;
+    width:660px;
+    color:#666666;
+}
+#changepw .changepwtb
+{
+    margin:20px;
+    width:620px
+}
+#changepw .header
+{
+    font-size: 22px;
+    font-family:微軟正黑體;
+    font-weight: 600;
+    padding:10px 0px 5px 5px;
+    border-bottom:double 3px #333333;
+    color:#8BB24B;
+}
+
+#changepw .title
+{
+    text-align:right;
+    padding:12px 10px 12px 0px;
+    }
+#changepw .oldpassword,#changepw .password,#changepw .repassword
+{
+    border:solid 1px #999999;
+    border-radius:2px;
+    width:250px;
+    height:22px;
+    
+}
+#changepw .footer
+{
+    padding:10px;
+    text-align:center;
+}
+#changepw .changepwbutton,#changepw .changepwcancel
+{
+    margin:5px;
+    font-family: 新細明體;
+    color:White;
+    border: 1px solid #999999;
+    width: 80px;
+    height: 30px;
+    border-radius:3px;
+    background-color:#8BB24B;
+}
+/*============================= 我的文章 ============================= */
+#iArticle
+{
+    margin:0px auto;
+    width:800px;
+    color:#666666;
+}
+#iArticle .iArticletb
+{
+    margin:20px;
+    width:760px
+}
+#iArticle .header
+{
+    font-size: 22px;
+    font-family:微軟正黑體;
+    font-weight: 900;
+    padding:10px 0px 5px 5px;
+    border-bottom:double 3px #333333;
+    color:#8BB24B;
+}
+
+#iArticle .title
+{
+
+    padding:12px 10px 12px 0px;
+}
+#iArticle .iArticleGrid
+{
+    width:760px;
+    margin:10px;
+}
+#iArticle .topic
+{
+    text-indent:5px;
+    text-align:left;
+    width:460px;
+    padding:5px;
+    border-bottom:1px solid #C0C0C0;
+}
+#iArticle .reply
+{
+    width:150px;
+    padding:5px;
+    border-bottom:1px solid #C0C0C0;
+}
+#iArticle .time
+{
+    width:150px;
+    padding:5px;
+    border-bottom:1px solid #C0C0C0;
+}
+#iArticle .topicitem,#iArticle .replyitem,#iArticle .timeitem
+{
+    border-bottom:1px solid #C0C0C0;
+    padding:5px 0px;
+}
+#iArticle .topicitem
+{
+    text-indent:5px;
+}
+#iArticle .timeitem
+{
+    text-align:center;
+}

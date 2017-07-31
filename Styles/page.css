@@ -1,0 +1,25 @@
+﻿.first,.pre,.num,.next,.last
+{
+    text-decoration: none;
+    font-size:14px;
+    font-family:微軟正黑體;
+    color:#808080;
+    padding:3px 8px 3px 8px;
+    margin:0px 2px 0px 0px; 
+    border:1px solid #CCCCCC;
+
+
+}
+.current_num
+{
+    text-decoration: none;
+    
+    font-size:14px;
+    font-family:微軟正黑體;
+    color:black;
+    font-weight:bold;
+    background-color:White;
+    padding:3px 8px 3px 8px;
+    margin:0px 2px 0px 0px; 
+    
+}

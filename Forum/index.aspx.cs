@@ -8,7 +8,6 @@ using System.Web.Security;
 using System.Data;
 
 
-
 namespace iFourms.Forum
 {
     public partial class index : System.Web.UI.Page
@@ -31,7 +30,6 @@ namespace iFourms.Forum
             }
             string current_page = Request.QueryString["page"] == null ? "1" : Request.QueryString["page"];
          
-
             ForumBL bl = new ForumBL();
             articleGrid.DataSource = bl._getArticleData(current_page);
             articleGrid.DataBind();
@@ -41,7 +39,6 @@ namespace iFourms.Forum
             p.getIndexPage(page_panel, bl._getArticleCount(), 10, Convert.ToInt32(current_page), "index.aspx?page={0}");
 
         }
-
         protected void fastbutton_Click(object sender, EventArgs e)
         {
             ForumBL bl = new ForumBL();
@@ -51,7 +48,6 @@ namespace iFourms.Forum
                 
             }
         }
-
         protected void articleGrid_RowDataBound(object sender, GridViewRowEventArgs e)
         {
             ForumBL bl = new ForumBL();
@@ -69,8 +65,7 @@ namespace iFourms.Forum
                 {
                     ((HyperLink)e.Row.Cells[4].FindControl("replyuser")).Text = ((HyperLink)e.Row.Cells[2].FindControl("username")).Text + "<br/>" + ((Label)e.Row.Cells[2].FindControl("createtime")).Text;
                     ((HyperLink)e.Row.Cells[4].FindControl("replyuser")).NavigateUrl = "~/Forum/articledetail.aspx?aid=" + aid +"#pb";
-                }            
-                
+                }               
             } 
         }
 

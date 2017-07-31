@@ -1,49 +1,17 @@
 ﻿<%@ Page Title="iForum討論區" Language="C#" MasterPageFile="~/iForumsMaster.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="iFourms.Forum.index" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
-    <link href="../Styles/forum.css" rel="stylesheet" type="text/css" />
-    
+    <link href="../Styles/forum.css" rel="stylesheet" type="text/css" />   
     <link href="../Styles/page.css" rel="stylesheet" type="text/css" />
     <script src="../Scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
-    <script src="../Scripts/watermark.js" type="text/javascript"></script>
+    <script src="../Scripts/autoComplete.js" type="text/javascript"></script>
     <script src="../Scripts/jquery-ui.js" type="text/javascript"></script>
     <link href="../Styles/jquery-ui.min.css" rel="stylesheet" type="text/css" />
-
-
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <script type="text/javascript">
-    $(function () {
-        $("#ContentPlaceHolder1_search").autocomplete({
-            source: function (request, response) {
-               var param = { articletitle: $('#ContentPlaceHolder1_search').val() };
-                $.ajax({
-                    dataType: "json",
-                    contentType: "application/json; charset=utf-8",
-                    type: "post",
-                    url: "../MemberWebService.asmx/getSearchTitle",
-                    data: JSON.stringify(param),
-                    success: function (data) {
-                        response($.map(data.d, function (item) {
-                            return {
-                        
-                                value: item
-                            }
-                        }))
-
-                    },
-                    error: function (response) {
-                        alert(response.responseText);
-                    },
-                    minLength: 1 //至少輸入1字元
-
-                });
-            },
-          
-
-        }).Watermark("請輸入查詢字串");
-    });
-</script>
+        autoComplete();
+    </script>
     <div id="gridcontent">
         <table class="gridcontenttb">
             <tr>
