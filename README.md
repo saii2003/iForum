@@ -1,4 +1,7 @@
 # iForum目錄檔案說明
+
+![index text](https://saii2003.github.io/Introduction/intro_forum/image/1.jpg)
+
 <pre><code>### App_Code</code></pre>
 - DBbase.cs ：資料庫連線基本設定
 - ForumBL.ce ：論壇頁面的商業邏輯
