@@ -27,7 +27,7 @@
 - Forget.aspx ：忘記密碼首頁
 - Register.aspx ：註冊首頁
 - Validate.aspx ：驗證碼
-- changepw.aspx ：更變密碼首頁
+- changepw.aspx ：變更密碼首頁
 - iAarticle.aspx ：個人文章首頁
 - login.aspx ：登入首頁
 - myself.aspx ：個人資料首頁
